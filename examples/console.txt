@@ -1,0 +1,26 @@
+Файл: logs_events_sample.log
+Фильтр: from=-, to=-, level=-, source=-
+Строк всего: 1209
+Корректных строк: 1200
+Ошибочных строк: 9
+Событий после фильтра: 1200
+
+По уровням:
+  ERROR — 475
+  INFO — 437
+  WARN — 149
+  DEBUG — 139
+
+По источникам:
+  inventory-api — 317
+  orders-api — 286
+  auth-api — 251
+  payment-worker — 234
+  gateway — 112
+
+Топ-5 кодов событий:
+  1. STOCK_LOW — 129
+  2. AUTH_LOGIN_OK — 127
+  3. STOCK_RESERVED — 127
+  4. ORDER_CREATED — 126
+  5. AUTH_TOKEN_EXPIRED — 124

@@ -1,0 +1,14 @@
+# Скомпилированные классы и отчёты
+build/
+out/
+
+# Скачиваемая зависимость (JaCoCo), её заново скачает build.sh
+lib/jacoco/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Локальные отчёты
+out.json
+out.csv

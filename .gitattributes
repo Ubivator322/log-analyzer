@@ -1,0 +1,6 @@
+# Единые переводы строк: sh-скрипты обязаны остаться с LF, иначе не запустятся в WSL/Linux
+* text=auto
+*.sh text eol=lf
+*.java text eol=lf
+*.md text eol=lf
+*.log text eol=lf

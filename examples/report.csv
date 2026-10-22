@@ -1,0 +1,26 @@
+section,key,count,reason
+summary,total_lines,1209,
+summary,valid_lines,1200,
+summary,invalid_lines,9,
+summary,matched_events,1200,
+level,ERROR,475,
+level,INFO,437,
+level,WARN,149,
+level,DEBUG,139,
+source,inventory-api,317,
+source,orders-api,286,
+source,auth-api,251,
+source,payment-worker,234,
+source,gateway,112,
+event_code,STOCK_LOW,129,
+event_code,AUTH_LOGIN_OK,127,
+event_code,STOCK_RESERVED,127,
+invalid_line,36,1,timestamp не в формате ISO 8601 UTC: 'not-a-timestamp'
+invalid_line,161,1,неизвестный уровень 'NOTICE'
+invalid_line,281,1,пустое поле eventCode
+invalid_line,411,1,timestamp не в формате ISO 8601 UTC: '2026-09-04 09:00:00'
+invalid_line,551,1,"ожидалось 5 полей, найдено 4"
+invalid_line,691,1,"ожидалось 5 полей, найдено 6"
+invalid_line,831,1,неизвестный уровень ''
+invalid_line,971,1,пустое поле message
+invalid_line,1111,1,пустая строка

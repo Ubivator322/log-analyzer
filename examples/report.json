@@ -1,0 +1,20 @@
+{
+  "input": "logs_events_sample.log",
+  "filters": {"from": "2026-09-02T00:00:00Z", "to": "2026-09-03T00:00:00Z", "level": "ERROR", "source": "gateway"},
+  "lines": {"total": 1209, "valid": 1200, "invalid": 9},
+  "matched": 6,
+  "byLevel": {"ERROR": 6},
+  "bySource": {"gateway": 6},
+  "topEventCodes": [{"eventCode": "HTTP_502", "count": 6}],
+  "invalidLines": [
+    {"line": 36, "reason": "timestamp не в формате ISO 8601 UTC: 'not-a-timestamp'"},
+    {"line": 161, "reason": "неизвестный уровень 'NOTICE'"},
+    {"line": 281, "reason": "пустое поле eventCode"},
+    {"line": 411, "reason": "timestamp не в формате ISO 8601 UTC: '2026-09-04 09:00:00'"},
+    {"line": 551, "reason": "ожидалось 5 полей, найдено 4"},
+    {"line": 691, "reason": "ожидалось 5 полей, найдено 6"},
+    {"line": 831, "reason": "неизвестный уровень ''"},
+    {"line": 971, "reason": "пустое поле message"},
+    {"line": 1111, "reason": "пустая строка"}
+  ]
+}
